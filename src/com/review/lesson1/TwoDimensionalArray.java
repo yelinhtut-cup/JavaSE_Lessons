@@ -1,4 +1,4 @@
-package com;
+package com.review.lesson1;
 
 public class TwoDimensionalArray {
     public static void main(String[] args) {
@@ -12,7 +12,6 @@ public class TwoDimensionalArray {
 //        }
         for (int row=0;row<numbers1.length;row++){
             for (int column=0;column<numbers1[row].length;column++) {
-                System.out.print(numbers1[row][column]+"\t");
             }
             System.out.println();
         }
